@@ -78,11 +78,11 @@ export default function Hero() {
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-green-300">
                 Water
               </span>
-              <span className="block text-4xl sm:text-5xl font-light text-white/80">Resources</span>
+              <span className="block text-4xl sm:text-5xl font-light text-white/80">Engineering</span>
             </h1>
 
             <p className="text-white/75 text-lg leading-relaxed mb-8 max-w-lg">
-              Modern approaches to water supply and engineering engagements — delivering excellence
+              Modern approaches to water supply and engineering, delivering excellence
               across Nigeria for over <strong className="text-white">30 years</strong>.
             </p>
 
