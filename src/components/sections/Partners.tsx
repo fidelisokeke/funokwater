@@ -52,7 +52,7 @@ export default function Partners() {
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             Our{' '}
-            <span className="gradient-text">Partners</span>
+            Partners
           </h2>
           <p className="text-slate-600 mt-4 max-w-xl mx-auto">
             We collaborate with globally recognised organisations to deliver water solutions

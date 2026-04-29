@@ -31,7 +31,7 @@ export default function Works() {
             </span>
             <h2 className="text-4xl sm:text-5xl font-bold text-slate-900">
               Some of Our{' '}
-              <span className="gradient-text">Works</span>
+              Works
             </h2>
             <p className="text-slate-600 mt-3 max-w-md">
               A glimpse at the projects we've delivered over the years across Nigeria.

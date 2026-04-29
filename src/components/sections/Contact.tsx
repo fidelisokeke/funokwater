@@ -22,7 +22,7 @@ export default function Contact() {
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             Let's Work{' '}
-            <span className="gradient-text">Together</span>
+            Together
           </h2>
           <p className="text-slate-600 mt-4 max-w-xl mx-auto">
             Ready to start your water engineering project? Fill in the form and our team will

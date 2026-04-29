@@ -80,7 +80,7 @@ export default function Services() {
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             Our{' '}
-            <span className="gradient-text">Services</span>
+            Services
           </h2>
           <p className="text-slate-600 mt-4 max-w-xl mx-auto">
             Comprehensive water and engineering solutions backed by three decades of expertise

@@ -1,11 +1,11 @@
 import { Target, Eye, Heart, Leaf } from 'lucide-react'
 
 const coreValues = [
-  { label: 'Integrity', color: 'from-sky-400 to-sky-600' },
-  { label: 'Respect for People', color: 'from-cyan-400 to-cyan-600' },
-  { label: 'Value for Investment', color: 'from-green-400 to-green-600' },
-  { label: 'Excellence', color: 'from-emerald-400 to-emerald-600' },
-  { label: 'Transparency', color: 'from-teal-400 to-teal-600' },
+  { label: 'Integrity', color: 'bg-sky-500' },
+  { label: 'Respect for People', color: 'bg-cyan-500' },
+  { label: 'Value for Investment', color: 'bg-green-600' },
+  { label: 'Excellence', color: 'bg-emerald-500' },
+  { label: 'Transparency', color: 'bg-teal-500' },
 ]
 
 const cards = [
@@ -96,7 +96,7 @@ export default function Values() {
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             Our{' '}
-            <span className="gradient-text">Values</span>
+            Values
           </h2>
           <p className="text-slate-600 mt-4 max-w-xl mx-auto">
             The principles that guide every decision, every project, and every partnership we build.
@@ -108,7 +108,7 @@ export default function Values() {
           {coreValues.map((v) => (
             <span
               key={v.label}
-              className={`bg-gradient-to-r ${v.color} text-white font-semibold text-sm px-5 py-2 rounded-full shadow-md`}
+              className={`${v.color} text-white font-semibold text-sm px-5 py-2 rounded-full shadow-md`}
             >
               {v.label}
             </span>

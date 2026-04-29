@@ -40,7 +40,7 @@ export default function About() {
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             About{' '}
-            <span className="gradient-text">Funok Water</span>
+            Funok Water
           </h2>
         </div>
 
