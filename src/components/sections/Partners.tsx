@@ -30,7 +30,7 @@ const partners = [
     description: "UN agency championing children's rights and access to safe water globally.",
     logo: 'https://www.unicef.org/sites/default/files/styles/logo/public/English_3.png',
     fallbackInitials: 'UN',
-    bg: 'bg-teal-50 border-teal-100',
+    bg: 'bg-blue-50 border-blue-100',
     href: 'https://www.unicef.org',
   },
 ]

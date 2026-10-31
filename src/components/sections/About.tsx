@@ -11,7 +11,7 @@ const pillars = [
     icon: <Award className="w-6 h-6" />,
     title: 'CAC Registered',
     desc: 'Incorporated under the Companies and Allied Matters Act 1990, Federal Republic of Nigeria.',
-    color: 'bg-green-50 text-green-600 border-green-100',
+    color: 'bg-blue-50 text-blue-600 border-blue-100',
   },
   {
     icon: <Shield className="w-6 h-6" />,
@@ -23,7 +23,7 @@ const pillars = [
     icon: <Users className="w-6 h-6" />,
     title: 'Skilled Manpower',
     desc: 'Requisite manpower and modern technology to deliver innovative, guaranteed solutions.',
-    color: 'bg-emerald-50 text-emerald-600 border-emerald-100',
+    color: 'bg-slate-50 text-slate-700 border-slate-200',
   },
 ]
 

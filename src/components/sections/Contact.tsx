@@ -54,7 +54,7 @@ export default function Contact() {
                 label: 'Our Office',
                 value: '11a Egwuekwe Street, Maryland Layout Enugu, Nigeria',
                 href: '#',
-                color: 'bg-green-500',
+                color: 'bg-blue-600',
               },
             ].map((item) => (
               <a
@@ -86,7 +86,7 @@ export default function Contact() {
             {/* Decorative trust badge */}
             <div className="bg-gradient-to-br from-sky-50 to-cyan-50 border border-sky-100 rounded-2xl p-5">
               <div className="flex items-center gap-3 mb-3">
-                <CheckCircle2 className="w-5 h-5 text-green-500" />
+                <CheckCircle2 className="w-5 h-5 text-sky-500" />
                 <span className="text-slate-800 font-semibold text-sm">Why Choose Funok?</span>
               </div>
               <ul className="space-y-2 text-sm text-slate-600">

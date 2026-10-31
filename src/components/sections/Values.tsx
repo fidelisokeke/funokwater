@@ -3,9 +3,9 @@ import { Target, Eye, Heart, Leaf } from 'lucide-react'
 const coreValues = [
   { label: 'Integrity', color: 'bg-sky-500' },
   { label: 'Respect for People', color: 'bg-cyan-500' },
-  { label: 'Value for Investment', color: 'bg-green-600' },
-  { label: 'Excellence', color: 'bg-emerald-500' },
-  { label: 'Transparency', color: 'bg-teal-500' },
+  { label: 'Value for Investment', color: 'bg-blue-600' },
+  { label: 'Excellence', color: 'bg-sky-700' },
+  { label: 'Transparency', color: 'bg-slate-700' },
 ]
 
 const cards = [
@@ -56,7 +56,7 @@ const cards = [
   {
     icon: <Heart className="w-7 h-7" />,
     title: 'Our Mission',
-    color: 'bg-green-500',
+    color: 'bg-blue-600',
     content: (
       <div className="flex flex-col items-center justify-center h-full py-4 text-center">
         <p className="text-xl font-semibold text-slate-800 leading-snug">
@@ -71,7 +71,7 @@ const cards = [
   {
     icon: <Leaf className="w-7 h-7" />,
     title: 'We Strive to Save Nature',
-    color: 'bg-emerald-500',
+    color: 'bg-sky-700',
     content: (
       <p className="text-slate-600 text-sm leading-relaxed">
         Funok Water adheres to the principles of responsible water resources management within
@@ -89,10 +89,10 @@ export default function Values() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <span className="inline-flex items-center gap-2 text-green-600 font-semibold text-sm uppercase tracking-wider mb-3">
-            <span className="w-8 h-px bg-green-400" />
+          <span className="inline-flex items-center gap-2 text-sky-600 font-semibold text-sm uppercase tracking-wider mb-3">
+            <span className="w-8 h-px bg-sky-400" />
             What Drives Us
-            <span className="w-8 h-px bg-green-400" />
+            <span className="w-8 h-px bg-sky-400" />
           </span>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mt-2">
             Our{' '}

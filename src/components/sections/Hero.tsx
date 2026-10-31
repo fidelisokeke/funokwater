@@ -51,7 +51,7 @@ export default function Hero() {
 
       {/* Geometric decoration */}
       <div className="absolute top-20 right-10 w-80 h-80 rounded-full bg-cyan-400/10 blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-60 h-60 rounded-full bg-green-400/10 blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-60 h-60 rounded-full bg-blue-400/10 blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-white/5" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full border border-white/8" />
 
@@ -75,13 +75,13 @@ export default function Hero() {
           {/* Left: Text */}
           <div>
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 mb-8">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
+              <span className="w-2 h-2 bg-cyan-300 rounded-full animate-pulse" />
               <span className="text-white/90 text-sm font-medium">Nigeria's Premier Water Engineering Firm</span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
               Funok Water
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-green-300">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 to-sky-300">
                 & Engineering
               </span>
               <span className="block text-4xl sm:text-5xl font-light text-white/80">Services Limited</span>
@@ -95,7 +95,7 @@ export default function Hero() {
             <ul className="space-y-3 mb-10">
               {highlights.map((item) => (
                 <li key={item} className="flex items-center gap-3 text-white/85 text-sm">
-                  <CheckCircle2 className="w-5 h-5 text-green-400 shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-cyan-300 shrink-0" />
                   {item}
                 </li>
               ))}

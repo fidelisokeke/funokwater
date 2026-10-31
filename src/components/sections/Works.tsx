@@ -24,10 +24,10 @@ export default function Works() {
         {/* Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-6 mb-14">
           <div>
-            <span className="inline-flex items-center gap-2 text-green-600 font-semibold text-sm uppercase tracking-wider mb-3">
-              <span className="w-8 h-px bg-green-400" />
+            <span className="inline-flex items-center gap-2 text-sky-600 font-semibold text-sm uppercase tracking-wider mb-3">
+              <span className="w-8 h-px bg-sky-400" />
               Portfolio
-              <span className="w-8 h-px bg-green-400" />
+              <span className="w-8 h-px bg-sky-400" />
             </span>
             <h2 className="text-4xl sm:text-5xl font-bold text-slate-900">
               Some of Our{' '}
@@ -107,7 +107,7 @@ export default function Works() {
         </div>
 
         {/* CTA strip */}
-        <div className="mt-14 bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-white shadow-xl shadow-green-500/20">
+        <div className="mt-14 bg-gradient-to-r from-sky-600 to-blue-700 rounded-3xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-white shadow-xl shadow-sky-500/20">
           <div>
             <h3 className="text-xl font-bold mb-2">View Our Latest Project Portfolio</h3>
             <p className="text-white/80 text-sm">
@@ -116,7 +116,7 @@ export default function Works() {
           </div>
           <a
             href="#contact"
-            className="flex items-center gap-2 bg-white text-green-700 font-bold px-6 py-3 rounded-full whitespace-nowrap hover:bg-green-50 transition-all shadow-lg hover:-translate-y-0.5"
+            className="flex items-center gap-2 bg-white text-sky-700 font-bold px-6 py-3 rounded-full whitespace-nowrap hover:bg-sky-50 transition-all shadow-lg hover:-translate-y-0.5"
           >
             <ExternalLink className="w-4 h-4" />
             Request Portfolio

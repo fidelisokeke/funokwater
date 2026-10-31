@@ -4,7 +4,7 @@ import { Droplets, MapPin, Users2, Trophy } from 'lucide-react'
 const stats = [
   { icon: <Trophy className="w-7 h-7" />, value: 30, suffix: '+', label: 'Years of Experience', color: 'text-yellow-400' },
   { icon: <Droplets className="w-7 h-7" />, value: 200, suffix: '+', label: 'Projects Completed', color: 'text-sky-400' },
-  { icon: <MapPin className="w-7 h-7" />, value: 12, suffix: '+', label: 'States Covered', color: 'text-green-400' },
+  { icon: <MapPin className="w-7 h-7" />, value: 12, suffix: '+', label: 'States Covered', color: 'text-sky-300' },
   { icon: <Users2 className="w-7 h-7" />, value: 4, suffix: '', label: 'Global Partners', color: 'text-cyan-400' },
 ]
 
@@ -48,7 +48,7 @@ export default function Stats() {
       {/* Decoration */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/4 w-64 h-64 rounded-full bg-cyan-400/10 blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 rounded-full bg-green-400/10 blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 rounded-full bg-blue-400/10 blur-3xl" />
       </div>
 
       {/* Wave top */}
