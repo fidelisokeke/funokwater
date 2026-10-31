@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Mail, Phone, MapPin, MessageCircle, Send, CheckCircle2 } from 'lucide-react'
+import InstagramIcon from '../InstagramIcon'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', agreed: false })
@@ -81,6 +82,17 @@ export default function Contact() {
             >
               <MessageCircle className="w-5 h-5" />
               Chat on WhatsApp
+            </a>
+
+            {/* Instagram button */}
+            <a
+              href="https://www.instagram.com/funokwater"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-hover flex items-center justify-center gap-3 bg-gradient-to-r from-fuchsia-600 via-pink-500 to-orange-400 text-white font-bold py-4 rounded-2xl shadow-lg shadow-pink-500/30 hover:opacity-90 transition-all"
+            >
+              <InstagramIcon className="w-5 h-5" />
+              Follow us on Instagram
             </a>
 
             {/* Decorative trust badge */}

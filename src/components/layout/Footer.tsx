@@ -1,4 +1,5 @@
 import { Droplets, Mail, Phone, MapPin, MessageCircle } from 'lucide-react'
+import InstagramIcon from '../InstagramIcon'
 
 export default function Footer() {
   return (
@@ -20,6 +21,7 @@ export default function Footer() {
               Funok Water and Engineering Services Limited — delivering modern, professional
               water resource solutions across Nigeria for over 30 years.
             </p>
+            <div className="flex flex-wrap gap-3">
             <a
               href="https://wa.me/2348033303858"
               target="_blank"
@@ -29,6 +31,16 @@ export default function Footer() {
               <MessageCircle className="w-4 h-4" />
               Chat on WhatsApp
             </a>
+            <a
+              href="https://www.instagram.com/funokwater"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-600 via-pink-500 to-orange-400 hover:opacity-90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-opacity"
+            >
+              <InstagramIcon className="w-4 h-4" />
+              Follow on Instagram
+            </a>
+            </div>
           </div>
 
           {/* Quick Links */}
