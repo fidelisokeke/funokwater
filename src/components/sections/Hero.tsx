@@ -39,7 +39,13 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen hero-gradient overflow-hidden flex flex-col justify-center">
+    <section className="relative min-h-screen overflow-hidden flex flex-col justify-center">
+      {/* Ocean background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1800&q=85')" }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-sky-900/80 via-blue-900/70 to-cyan-900/80" />
       {/* Floating particles */}
       <div ref={particlesRef} className="absolute inset-0 pointer-events-none" />
 
@@ -74,11 +80,11 @@ export default function Hero() {
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              Funok
+              Funok Water
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-green-300">
-                Water
+                & Engineering
               </span>
-              <span className="block text-4xl sm:text-5xl font-light text-white/80">Engineering</span>
+              <span className="block text-4xl sm:text-5xl font-light text-white/80">Services Limited</span>
             </h1>
 
             <p className="text-white/75 text-lg leading-relaxed mb-8 max-w-lg">
@@ -141,11 +147,12 @@ export default function Hero() {
                   <span className="text-sky-200 text-xs font-bold">FW</span>
                 </div>
                 <div>
-                  <p className="text-white text-xs font-semibold">Funok Water & Engineering</p>
+                  <p className="text-white text-xs font-semibold">Funok Water & Engineering Services Limited</p>
                   <p className="text-white/50 text-xs">Enugu, Nigeria</p>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

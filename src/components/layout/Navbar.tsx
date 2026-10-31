@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Menu, X, Droplets, Phone } from 'lucide-react'
+import { Menu, X, Phone } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
@@ -32,29 +32,12 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 group">
-          <div className="relative">
-            <div className={cn(
-              'w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300',
-              scrolled ? 'bg-sky-500' : 'bg-white/20 border border-white/40'
-            )}>
-              <Droplets className={cn('w-6 h-6', scrolled ? 'text-white' : 'text-white')} />
-            </div>
-          </div>
-          <div>
-            <span className={cn(
-              'font-bold text-xl tracking-tight transition-colors',
-              scrolled ? 'text-sky-600' : 'text-white'
-            )}>
-              FUNOK
-            </span>
-            <span className={cn(
-              'font-light text-xl tracking-tight transition-colors',
-              scrolled ? 'text-slate-700' : 'text-white/90'
-            )}>
-              WATER
-            </span>
-          </div>
+        <a href="#" className="flex items-center group">
+          <img
+            src="/funokwater.PNG"
+            alt="Funok Water"
+            className="h-12 w-auto object-contain"
+          />
         </a>
 
         {/* Desktop Nav */}
